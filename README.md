@@ -72,4 +72,4 @@ While LangGraph Server handles the logic, you will need a lightweight entry poin
 * **LLM Framework:** LangChain (ChatOpenAI, ChatAnthropic, or ChatGemini).
 * **Data Extraction:** Pydantic (for defining the CRM-ready JSON schema).
 * **Server Environment:** LangGraph Server (using `langgraph.json` configuration).
-* **Persistence:** PostgreSQL (via `langgraph-checkpoint-postgres`).
+* **Persistence:** ChromaDB.

@@ -1,6 +1,11 @@
 import os
 import asyncio
+import sys
 from dotenv import load_dotenv
+
+# Add project root to sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from app.tools import create_crm_lead, match_crm_properties, log_crm_activity
 
 async def main():
